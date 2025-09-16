@@ -1,0 +1,37 @@
+body {
+  font-family: sans-serif;
+  background: #f4f4f4;
+  text-align: center;
+  padding: 50px;
+}
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 40px;
+}
+.txtz-btn {
+  padding: 15px 30px;
+  font-size: 1.2em;
+  background: #0066cc;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.txtz-btn:hover {
+  background: #004a95;
+}
+#embed-area {
+  margin-top: 30px;
+  display: none;
+}
+#embed-content {
+  width: 80vw;
+  height: 50vh;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.1);
+  background: white;
+}
