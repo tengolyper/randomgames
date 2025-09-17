@@ -5,3 +5,16 @@ const embeds = [
   `<iframe src="https://www.jopi.com/embed.php?game=volley-random" frameborder="0" scrolling="no" width="800" height="600"></iframe>`,
   `<div style="padding:40px;">Replace this with your custom embed HTML!</div>`
 ];
+
+function showEmbed(index) {
+  const embedArea = document.getElementById("embed-area");
+  const embedContent = document.getElementById("embed-content");
+
+  if (embeds[index - 1]) {
+    embedContent.innerHTML = embeds[index - 1];
+    embedArea.style.display = "block";
+  } else {
+    embedContent.innerHTML = "<p>Embed not found.</p>";
+    embedArea.style.display = "block";
+  }
+}
