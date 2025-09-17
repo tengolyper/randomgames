@@ -1,6 +1,6 @@
 body {
   font-family: sans-serif;
-  background: #f4f4f4;
+  background: #444444;
   text-align: center;
   padding: 50px;
 }
@@ -16,7 +16,7 @@ body {
 .txt2-btn {
   padding: 15px 30px;
   font-size: 1.2em;
-  background: #0066cc;
+  background: #f44336;
   color: #fff;
   border: none;
   border-radius: 8px;
@@ -25,7 +25,7 @@ body {
 }
 
 .txt2-btn:hover {
-  background: #004a95;
+  background: #d23125;
 }
 
 #embed-area {
